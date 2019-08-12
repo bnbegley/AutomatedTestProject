@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTestProject", "AutomatedTestProject\AutomatedTestProject.csproj", "{B62AE775-DAA6-4C68-9B44-0704D89E83C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomatedTestConsoleProject", "AutomatedTestProject\AutomatedTestConsoleProject.csproj", "{B62AE775-DAA6-4C68-9B44-0704D89E83C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateTestLibrary", "AutomateTestLibrary\AutomateTestLibrary.csproj", "{29D6DCAF-C238-43B9-B9D7-39A6F99D0D5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomatedTestLibrary", "AutomateTestLibrary\AutomatedTestLibrary.csproj", "{29D6DCAF-C238-43B9-B9D7-39A6F99D0D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestAutomatedTestProject", "MSTestAutomatedTestProject\MSTestAutomatedTestProject.csproj", "{15CB6418-239C-428A-B4E8-1E743A5A92A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{29D6DCAF-C238-43B9-B9D7-39A6F99D0D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29D6DCAF-C238-43B9-B9D7-39A6F99D0D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29D6DCAF-C238-43B9-B9D7-39A6F99D0D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CB6418-239C-428A-B4E8-1E743A5A92A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CB6418-239C-428A-B4E8-1E743A5A92A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CB6418-239C-428A-B4E8-1E743A5A92A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CB6418-239C-428A-B4E8-1E743A5A92A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
